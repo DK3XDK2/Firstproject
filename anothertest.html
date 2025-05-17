@@ -1,0 +1,979 @@
+
+<!-- Developer By CMSNT.CO | FB.COM/CMSNT.CO | ZALO.ME/0947838128 | MMO Solution -->
+<!doctype html>
+<html class="h-100">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="canonical" href="https://shopclone247.com/" />
+    <title>SHOPCLONE247.COM</title>
+    <meta name="description" content="Hệ thống bán nguyên liệu ADS tự động, uy tín, giá rẻ..." />
+    <meta name="keywords" content="">
+    <meta name="copyright" content="" />
+    <meta name="author" content="" />
+    <meta property="og:url" content="https://shopclone247.com/">
+    <meta property="og:site_name" content="https://shopclone247.com/" />
+    <meta property="og:title" content="SHOPCLONE247.COM" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://shopclone247.com/assets/storage/images/image_134.png" />
+    <meta property="og:image:secure"
+        content="https://shopclone247.com/assets/storage/images/image_134.png" />
+    <meta name="twitter:title" content="SHOPCLONE247.COM" />
+    <meta name="twitter:image"
+        content="https://shopclone247.com/assets/storage/images/image_134.png" />
+    <meta name="twitter:image:alt" content="SHOPCLONE247.COM" />
+    <link rel="icon" type="image/png" href="https://shopclone247.com/assets/storage/images/favicon_VDN.png" />
+    <style>
+    :root {
+        --primary: #007ea8;
+    }
+    </style>
+    <style>
+    :root {
+        --primary1: #1a5e75;
+    }
+    </style>
+    
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/fonts/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/fonts/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/vendor/venobox/venobox.min.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/vendor/slickslider/slick.min.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/vendor/niceselect/nice-select.min.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/css/main.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/css/user-auth.css">
+    <link rel="stylesheet" href="https://shopclone247.com/public/client/css/index.css">
+
+    <link rel="stylesheet" href="https://shopclone247.com/public/fontawesome/css/all.min.css">
+
+    <!-- sweetalert2-->
+    <link class="main-stylesheet" href="https://shopclone247.com/public/sweetalert2/default.css" rel="stylesheet"
+        type="text/css">
+    <script src="https://shopclone247.com/public/sweetalert2/sweetalert2.js"></script>
+    <!-- Cute Alert -->
+    <link class="main-stylesheet" href="https://shopclone247.com/public/cute-alert/style.css" rel="stylesheet" type="text/css">
+    <script src="https://shopclone247.com/public/cute-alert/cute-alert.js"></script>
+    <!-- Simple Notify CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
+    <!-- Simple Notify JS -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://shopclone247.com/public/js/jquery-3.6.0.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+
+            
+<link rel="stylesheet" href="https://shopclone247.com/public/client/css/wallet.css">
+    <link rel="stylesheet" href="https://shopclone247.com/mod/css/main.css?v=17">
+    <script src="https://shopclone247.com/mod/js/main.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<script>
+function showMessage(message, type) {
+  const commonOptions = {
+    effect: 'fade',
+    speed: 300,
+    customClass: null,
+    customIcon: null,
+    showIcon: true,
+    showCloseButton: true,
+    autoclose: true,
+    autotimeout: 3000,
+    gap: 20,
+    distance: 20,
+    type: 'outline',
+    position: 'right top'
+  };
+
+  const options = {
+    success: {
+      status: 'success',
+      title: 'Thành công!',
+      text: message,
+    },
+    error: {
+      status: 'error',
+      title: 'Thất bại!',
+      text: message,
+    }
+  };
+  new Notify(Object.assign({}, commonOptions, options[type]));
+}
+
+</script>
+
+<style>
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;}
+html {
+  scroll-behavior: smooth;
+}
+
+.feature-content {
+    padding-left: 0px;
+    border-left: none;
+}
+.product-disable::before {
+    position: absolute;
+    content: "Hết hàng";
+    top: 89%;
+    left: 50%;
+    z-index: 2;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: var(--primary-tshadow);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    background: rgba(224, 152, 22, 0.9);
+}
+</style>
+
+
+ 
+<body>
+    <div class="backdrop"></div><a class="backtop" href="#"><i class="fa-sharp fa-solid fa-chevron-up"></i></a>
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5">
+                    <div class="header-top-welcome">
+                        <p>Chào mừng bạn đến với website SHOPCLONE247</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-3">
+                    <div class="header-top-select">
+                        <div class="header-select"><i class="icofont-world"></i>
+                                                        <select class="select" id="changeLanguage" onchange="changeLanguage()">
+                                                                <option value="1"
+                                    selected>Vietnamese</option>
+                                                            </select>
+                                                    </div>
+                        <div class="header-select"><i class="icofont-money"></i>
+                            <select class="select" id="changeCurrency" onchange="changeCurrency()">
+                                                                <option value="3"
+                                    selected>VND                                </option>
+                                                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-4">
+                    <ul class="header-top-list">
+                        <li><a href="https://shopclone247.com/client/policy">Chính sách</a></li>
+                        <li><a href="https://shopclone247.com/client/faq">FAQ</a></li>
+                        <li><a href="https://shopclone247.com/client/contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header-part">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-media-group">
+                    <button class="header-user"><i class="fa-solid fa-bars"></i></button>
+                    <a href="https://shopclone247.com/">
+                        <img src="https://shopclone247.com/assets/storage/images/logo_light_GZ1.png" alt="logo"></a>
+                    <button class="header-src"><i class="fas fa-search"></i></button>
+                </div>
+                <a href="https://shopclone247.com/" class="header-logo"><img src="https://shopclone247.com/assets/storage/images/logo_light_GZ1.png"
+                        alt="logo"></a>
+                <form class="header-form" method="GET" action="https://shopclone247.com/">
+                    <input type="hidden" name="action" value="home">
+                    <input type="text" name="keyword" value=""
+                        placeholder="Tìm kiếm sản phẩm..."><button><i class="fas fa-search"></i></button>
+                </form>
+                <div class="header-widget-group">
+                    <a href="https://shopclone247.com/product-orders/" class="header-widget" title="Đơn hàng"><i
+                            class="fa-solid fa-cart-arrow-down"></i></a>
+                    <a href="https://shopclone247.com/client/favorites" class="header-widget"
+                        title="Sản phẩm yêu thích">
+                        <i class="fas fa-heart"></i>
+                        <sup
+                            id="numFavorites">0</sup>
+                    </a>
+                    <button class="header-widget header-cart" title="Nạp tiền"><i
+                            class="fa-solid fa-building-columns"></i>
+
+                    </button>
+                                        <a href="https://shopclone247.com/client/profile" class="header-widget" title="Profile">
+                        <img src="https://shopclone247.com/assets/storage/images/avatar4N0.png" alt="user"><span>
+                            <p class="text-uppercase">CoolNameHaha1</p>
+                            <p style="color:blue;">0đ</p>
+                        </span>
+                    </a>
+                                    </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="navbar-content">
+                        <ul class="navbar-list">
+                            <li class="navbar-item"><a class="navbar-link"
+                                    href="https://shopclone247.com/client/home">Trang chủ</a>
+                            </li>
+                            <li class="navbar-item dropdown-megamenu"><a class="navbar-link dropdown-arrow"
+                                    href="#">Sản phẩm</a>
+                                <div class="megamenu">
+                                    <div class="container">
+                                        <div class="row row-cols-5">
+                                                                                        <div class="col-4">
+                                                <div class="megamenu-wrap">
+                                                    <h5 class="megamenu-title">INSTAGRAM</h5>
+                                                    <ul class="megamenu-list">
+                                                                                                                <li><a href="https://shopclone247.com/category/clone-instagram"><img
+                                                                    width="25px"
+                                                                    src="https://shopclone247.com/assets/storage/images/iconANX6.png">
+                                                                CLONE INSTAGRAM</a></li>
+                                                                                                            </ul>
+                                                </div>
+                                            </div>
+                                                                                        <div class="col-4">
+                                                <div class="megamenu-wrap">
+                                                    <h5 class="megamenu-title">Facebook</h5>
+                                                    <ul class="megamenu-list">
+                                                                                                                <li><a href="https://shopclone247.com/category/clone-facebook"><img
+                                                                    width="25px"
+                                                                    src="https://shopclone247.com/assets/storage/images/iconBZ9K.png">
+                                                                CLONE FACEBOOK</a></li>
+                                                                                                            </ul>
+                                                </div>
+                                            </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link dropdown-arrow" href="#">Nạp tiền</a>
+                                <ul class="dropdown-position-list">
+                                                                        <li><a href="https://shopclone247.com/?action=recharge-bank"><img width="20px"
+                                                src="https://shopclone247.com/assets/img/icon-bank.svg">
+                                            Ngân hàng</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                                                                                                                                            </ul>
+                            </li>
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link dropdown-arrow" href="#">Lịch sử</a>
+                                <ul class="dropdown-position-list">
+                                    <li><a href="https://shopclone247.com/product-orders/">Lịch sử đơn hàng</a>
+                                    </li>
+                                    <li><a href="https://shopclone247.com/client/logs">Nhật ký hoạt động</a></li>
+                                    <li><a href="https://shopclone247.com/client/transactions">Biến động số dư</a>
+                                    </li>
+                                </ul>
+                            </li>
+                                                        <li class="navbar-item dropdown">
+                                <a class="navbar-link dropdown-arrow" href="#">Affiliate Program</a>
+                                <ul class="dropdown-position-list">
+                                    <li><a href="https://shopclone247.com/?action=affiliates">Thống kê</a></li>
+                                    <li><a href="https://shopclone247.com/?action=affiliate-history">Lịch sử</a>
+                                    </li>
+                                    <li><a href="https://shopclone247.com/?action=affiliate-withdraw">Rút tiền</a>
+                                    </li>
+                                </ul>
+                            </li>
+                                                                                    <li class="navbar-item"><a class="navbar-link"
+                                    href="https://shopclone247.com/blogs">Blogs</a></li>
+                                                                                    <li class="navbar-item"><a class="navbar-link"
+                                    href="https://shopclone247.com/document-api">Tài liệu API</a></li>
+                                                                                </ul>
+                        <div class="navbar-info-group">
+                            <div class="navbar-info"><i class="fa-solid fa-phone"></i>                                <p><small>Hotline</small><span>0976656383</span></p>
+                            </div>
+                            <div class="navbar-info"><i class="fa-solid fa-envelope"></i>                                <p><small>Email</small><span>support_shopclone247@tuananhclone.io.vn</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <aside class="category-sidebar">
+        <div class="category-header">
+            <h4 class="category-title"><i class="fas fa-align-left"></i><span>Sản phẩm</span></h4><button
+                class="category-close"><i class="icofont-close"></i></button>
+        </div>
+        <!--menu mobile-->
+        <ul class="category-list">
+                        <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <img src="https://shopclone247.com/assets/storage/images/iconX251.png" style="margin-right: 10px;" width="30px">
+                    Facebook </a>
+                <ul class="dropdown-list">
+                                        <li><a href="https://shopclone247.com/category/clone-facebook">CLONE FACEBOOK</a>
+                    </li>
+                                    </ul>
+            </li>
+                        <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <img src="https://shopclone247.com/assets/storage/images/iconE40R.png" style="margin-right: 10px;" width="30px">
+                    INSTAGRAM </a>
+                <ul class="dropdown-list">
+                                        <li><a href="https://shopclone247.com/category/clone-instagram">CLONE INSTAGRAM</a>
+                    </li>
+                                    </ul>
+            </li>
+                    </ul>
+    </aside>
+    <aside class="cart-sidebar">
+        <div class="cart-header">
+            <div class="cart-total"><i
+                    class="fa-solid fa-building-columns"></i><span>Chọn phương thức nạp tiền</span></div>
+            <button class="cart-close"><i class="icofont-close"></i></button>
+        </div>
+        <ul class="category-list">
+                        <li class="category-item">
+                <a class="category-link" href="https://shopclone247.com/?action=recharge-bank"><img style="margin-right: 10px;"
+                        width="30px" src="https://shopclone247.com/assets/img/icon-bank.svg">
+                    Ngân hàng</a>
+            </li>
+                                                                                                                        
+            
+                                                
+
+                    </ul>
+    </aside>
+    <aside class="nav-sidebar">
+        <div class="nav-header"><a href="https://shopclone247.com/"><img src="https://shopclone247.com/assets/storage/images/logo_light_GZ1.png"
+                    alt="logo"></a><button class="nav-close"><i class="icofont-close"></i></button></div>
+        <div class="nav-content">
+            <div class="nav-btn">
+                                <a href="https://shopclone247.com/client/profile" class="btn btn-inline">
+                    <i class="fa fa-user"></i> <span>CoolNameHaha1</span></a>
+                
+            </div>
+            <div class="nav-select-group">
+                <p>Số dư của tôi: <strong
+                        class="text-wallet">0đ</strong></p>
+            </div>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="https://shopclone247.com/client/home"><i
+                            class="icofont-home"></i>Trang chủ</a></li>
+                <li><a class="nav-link dropdown-link" href="#"><i
+                            class="fa-solid fa-cart-shopping"></i>Sản phẩm</a>
+                    <ul class="dropdown-list">
+                                                <li><a href="https://shopclone247.com/category/clone-facebook"><img width="25px"
+                                    class="me-2 active" src="https://shopclone247.com/assets/storage/images/iconBZ9K.png">
+                                CLONE FACEBOOK</a></li>
+                                                <li><a href="https://shopclone247.com/category/clone-instagram"><img width="25px"
+                                    class="me-2 active" src="https://shopclone247.com/assets/storage/images/iconANX6.png">
+                                CLONE INSTAGRAM</a></li>
+                                            </ul>
+                </li>
+                <li><a class="nav-link dropdown-link" href="#"><i
+                            class="fa-solid fa-building-columns"></i>Nạp tiền</a>
+                    <ul class="dropdown-list">
+                                                <li><a href="https://shopclone247.com/?action=recharge-bank"><img width="20px" class="me-2"
+                                    src="https://shopclone247.com/assets/img/icon-bank.svg">
+                                Ngân hàng</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+                </li>
+                <li><a class="nav-link dropdown-link" href="#"><i
+                            class="fa-solid fa-clock-rotate-left"></i>Lịch sử</a>
+                    <ul class="dropdown-list">
+                        <li><a href="https://shopclone247.com/product-orders/">Lịch sử đơn hàng</a>
+                        </li>
+                        <li><a href="https://shopclone247.com/client/logs">Nhật ký hoạt động</a></li>
+                        <li><a href="https://shopclone247.com/client/transactions">Biến động số dư</a>
+                        </li>
+                    </ul>
+                </li>
+                                <li><a class="nav-link dropdown-link" href="#"><i
+                            class="fa-solid fa-money-bill-trend-up"></i>Affiliate Program</a>
+                    <ul class="dropdown-list">
+                        <li><a href="https://shopclone247.com/?action=affiliates">Thống kê</a></li>
+                        <li><a href="https://shopclone247.com/?action=affiliate-history">Lịch sử</a>
+                        </li>
+                        <li><a href="https://shopclone247.com/?action=affiliate-withdraw">Rút tiền</a>
+                        </li>
+                    </ul>
+                </li>
+                                                <li><a class="nav-link" href="https://shopclone247.com/blogs"><i
+                            class="fa-solid fa-newspaper"></i>Blogs</a></li>
+                                                <li><a class="nav-link" href="https://shopclone247.com/document-api"><i
+                            class="fa-regular fa-file-code"></i>Tài liệu API</a></li>
+                                                <li><a class="nav-link" href="https://shopclone247.com/client/logout"><i
+                            class="icofont-logout"></i>Đăng Xuất</a></li>
+            </ul>
+            <div class="nav-info-group">
+                <div class="nav-info"><i class="fa-solid fa-phone"></i>                    <p><span>0976656383</span></p>
+                </div>
+                <div class="nav-info"><i class="fa-solid fa-envelope"></i>                    <p><span>support_shopclone247@tuananhclone.io.vn</span></p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="mobile-menu">
+        <a href="https://shopclone247.com/client/home" title="Trang chủ"
+            class=""><i
+                class="fas fa-home"></i><span>Trang chủ</span></a>
+        <button class="cate-btn" title="Sản phẩm"><i
+                class="fas fa-list"></i><span>Sản phẩm</span></button>
+        <button
+            class="cart-btn "
+            title="Nạp tiền"><i
+                class="fa-solid fa-building-columns"></i><span>Nạp tiền</span></button>
+        <a href="https://shopclone247.com/product-orders"
+            class="" title="Đơn hàng"><i
+                class="fa-solid fa-cart-shopping"></i><span>Đơn hàng</span></a>
+        <a href="https://shopclone247.com/client/profile" title="Profile" class=""><i
+                class="fa-solid fa-user"></i><span>Thông tin</span></a>
+    </div>
+
+
+
+
+
+    <script>
+    function changeLanguage() {
+        var id = document.getElementById("changeLanguage").value;
+        $.ajax({
+            url: "https://shopclone247.com/ajaxs/client/update.php",
+            method: "POST",
+            dataType: "JSON",
+            data: {
+                action: 'changeLanguage',
+                id: id
+            },
+            success: function(respone) {
+                if (respone.status == 'success') {
+                    location.reload();
+                } else {
+                    cuteAlert({
+                        type: "error",
+                        title: "Error",
+                        message: respone.msg,
+                        buttonText: "Okay"
+                    });
+                }
+            },
+            error: function() {
+                alert(html(response));
+                history.back();
+            }
+        });
+    }
+    </script>
+    <script>
+    function changeCurrency() {
+        var id = document.getElementById("changeCurrency").value;
+        $.ajax({
+            url: "https://shopclone247.com/ajaxs/client/update.php",
+            method: "POST",
+            dataType: "JSON",
+            data: {
+                action: 'changeCurrency',
+                id: id
+            },
+            success: function(respone) {
+                if (respone.status == 'success') {
+                    location.reload();
+                } else {
+                    cuteAlert({
+                        type: "error",
+                        title: "Error",
+                        message: respone.msg,
+                        buttonText: "Okay"
+                    });
+                }
+            },
+            error: function() {
+                alert(html(response));
+                history.back();
+            }
+        });
+    }
+    </script>
+<section class="section feature-part">
+    <div class="container">
+        <div class="mb-5">
+
+        </div>
+        <div class="row mb-5">
+                        <div class="col-md-12">
+                <div class="account-card pt-3">
+                    <h4><span style="color:#e74c3c"><strong>Lưu &yacute;:</strong></span> H&atilde;y đảm bảo t&agrave;i khoản đăng nhập v&agrave; mật khẩu của bạn kh&ocirc;ng khớp với th&ocirc;ng tin đăng nhập tr&ecirc;n c&aacute;c website kh&aacute;c để tr&aacute;nh trường hợp chủ website kh&aacute;c sử dụng th&ocirc;ng tin của bạn để đăng nhập v&agrave;o website n&agrave;y!</h4>
+                </div>
+            </div>
+            
+            
+            <br>
+
+
+
+            <div class="col-xl-9">
+                                <ul class="custom-button-list">
+                    <li><a class="btn-category-home active" href="https://shopclone247.com/"><i
+                                class="fa-solid fa-cart-shopping me-2"></i>Tất cả sản phẩm</a>
+                    </li>
+                                        <li><a class="btn-category-home "
+                            href="https://shopclone247.com/category/clone-facebook"><img
+                                src="https://shopclone247.com/assets/storage/images/iconBZ9K.png" width="25px" alt="CLONE FACEBOOK"
+                                class="me-2">CLONE FACEBOOK</a></li>
+                                        <li><a class="btn-category-home "
+                            href="https://shopclone247.com/category/clone-instagram"><img
+                                src="https://shopclone247.com/assets/storage/images/iconANX6.png" width="25px" alt="CLONE INSTAGRAM"
+                                class="me-2">CLONE INSTAGRAM</a></li>
+                                    </ul>
+                                                <div class="row">
+                                        <div class="col-lg-12 mb-5" id="category2">
+                                                <div class="home-heading mb-3">
+                            <h3>
+                                <img src="https://shopclone247.com/assets/storage/images/iconBZ9K.png">
+                                CLONE FACEBOOK                            </h3>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 row-cols-xl-1">
+                                                                                                                <div>
+                                <div class="feature-card ">
+                                    <div class="feature-content">
+                                        <div class="row">
+                                            <div class="col-8 col-md-9">
+                                                <h6 class="feature-name">
+                                                    <a
+                                                        href="https://shopclone247.com/product/clone-facebook-new-api-2424---live-min-30p---bh-1-1">CLONE FACEBOOK NEW API 24/24 - BAO LOG -  BH 1-1 - AUTO CHECKLIVE API</a>
+                                                </h6>
+                                                <p class="feature-desc"><i class="fa-solid fa-angles-right"></i>
+                                                    CLONE REG PHONE THẬT VERY SIM</p>
+                                                <div class="row">
+                                                                                                        <div class="col-12 col-md-12">
+                                                        <label class="label-text feat">Kho hàng:                                                            <b>5</b></label>
+                                                                                                                <label class="label-text order">Đã bán:                                                            <b>28.618</b></label>
+                                                                                                                                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-3">
+                                                <div class="card-price-product-list">
+                                                    <h5 class="feature-price">
+                                                        <span>1.500đ</span>
+                                                    </h5>
+                                                </div>
+                                                <button id="openModal_1"
+                                                    onclick="openModal(`dc795f769f286fbdaab4652ed7652f2e243224c594544046d7ba3a4e44cda52252d4919ec60b4d4595e1037b186fe6d2219cd3712a4918aa09539eecbda4261d`, `1`)"
+                                                    class="btn-buy"
+                                                    data-id="1">Mua Ngay</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                        
+                                            </div>
+                                        <div class="col-lg-12 mb-5" id="category4">
+                                                <div class="home-heading mb-3">
+                            <h3>
+                                <img src="https://shopclone247.com/assets/storage/images/iconANX6.png">
+                                CLONE INSTAGRAM                            </h3>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 row-cols-xl-1">
+                                                                                                                <div>
+                                <div class="feature-card ">
+                                    <div class="feature-content">
+                                        <div class="row">
+                                            <div class="col-8 col-md-9">
+                                                <h6 class="feature-name">
+                                                    <a
+                                                        href="https://shopclone247.com/product/clone-instagram-qua-282-full-email2fa">CLONE INSTAGRAM QUA 282 - ZIN ALL</a>
+                                                </h6>
+                                                <p class="feature-desc"><i class="fa-solid fa-angles-right"></i>
+                                                    CLONE IG QUA UNLOCK 282 SIÊU TRÂU BAO NGÂM - ĐỊNH DẠNG: USER|PASS|2FA|Cookie|Email (EMAILFAKE.com)</p>
+                                                <div class="row">
+                                                                                                        <div class="col-12 col-md-12">
+                                                        <label class="label-text feat">Kho hàng:                                                            <b>521</b></label>
+                                                                                                                <label class="label-text order">Đã bán:                                                            <b>37.831</b></label>
+                                                                                                                                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-3">
+                                                <div class="card-price-product-list">
+                                                    <h5 class="feature-price">
+                                                        <span>2.500đ</span>
+                                                    </h5>
+                                                </div>
+                                                <button id="openModal_2"
+                                                    onclick="openModal(`dc795f769f286fbdaab4652ed7652f2e243224c594544046d7ba3a4e44cda52252d4919ec60b4d4595e1037b186fe6d2219cd3712a4918aa09539eecbda4261d`, `2`)"
+                                                    class="btn-buy"
+                                                    data-id="2">Mua Ngay</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                        
+                                            </div>
+                                    </div>
+                            </div>
+                        <div class="col-xl-3">
+                <div class="account-card card-wallet-home py-4">
+                                        <div class="my-wallet">
+                        <p>Số dư hiện tại</p>
+                        <h3>0đ</h3>
+                    </div>
+                    <div class="wallet-card-group">
+                        <div class="wallet-card">
+                            <p>Tổng tiền nạp</p>
+                            <h3>0đ</h3>
+                        </div>
+                        <div class="wallet-card">
+                            <p>Số dư đã sử dụng</p>
+                            <h3>0đ</h3>
+                        </div>
+                        <div class="wallet-card">
+                            <p>Giảm giá</p>
+                            <h3>0%</h3>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+                    </div>
+                <div class="row">
+            <div class="col-lg-6 mb-3">
+                <div class="home-heading mb-3">
+                    <h3><i class="fa-solid fa-cart-shopping m-2"></i> ĐƠN HÀNG GẦN ĐÂY                    </h3>
+                </div>
+                <div style="height:350px;overflow-x:hidden;overflow-y:auto;">
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">2</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">2.700đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">32 phút trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">3</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">4.050đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">34 phút trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">4</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">5.400đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">46 phút trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">4</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">5.400đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">1 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">19</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">25.650đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">2 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">1</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">1.350đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">2 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">1</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">1.350đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">2 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...666</b> mua <b style="color: red;">1</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">1.200đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">3 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...ort</b> mua <b style="color: red;">1</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">1.500đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">15 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="feature-card">
+                        <div class="feature-content">
+                            <div class="row">
+                                <div class="col-10 col-md-10">
+                                                                        <b style="color: green;">...ort</b> mua <b style="color: red;">1</b> <b>CLONE FACEBOOK NEW API 24/24 -...</b> với giá <b style="color:blue;">1.500đ</b>                                </div>
+                                <div class="col-2 col-md-2">
+                                    <span class="badge bg-primary">15 tiếng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <div class="home-heading mb-3">
+                    <h3><i class="fa-solid fa-credit-card m-2"></i> NẠP TIỀN GẦN ĐÂY                    </h3>
+                </div>
+                <div style="height:350px;overflow-x:hidden;overflow-y:auto;">
+                                    </div>
+            </div>
+        </div>
+        
+
+    </div>
+</section>
+
+
+
+
+<div class="modal fade" id="openModal" tabindex="-1" aria-labelledby="modal-block-popout" role="dialog"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-popout" role="document">
+        <div class="modal-content">
+            <div id="modalContent"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openModal(token, id) {
+    $("#modalContent").html('');
+    var originalButtonContent = $('#openModal_' + id).html();
+    $('#openModal_' + id).html('<span><i class="fa fa-spinner fa-spin"></i> Processing...</span>')
+        .prop('disabled',
+            true);
+    $.ajax({
+        url: "https://shopclone247.com/ajaxs/client/modal/view-product.php",
+        method: "GET",
+        data: {
+            id: id,
+            token: token
+        },
+        success: function(data) {
+            $("#modalContent").html(data);
+            $('#openModal').modal('show');
+            $('#openModal_' + id).html(originalButtonContent).prop('disabled', false);
+        },
+        error: function() {
+            Swal.fire('Thất bại!', data, 'error');
+        }
+    });
+}
+</script>
+
+
+
+
+<ul id="top-menu-right">
+    <li>
+        <a class="menu-item" id="toggle-menu-button">
+            <i class="fa-solid fa-eye-slash"></i>
+            <span>Đóng menu</span></a>
+    </li>
+    <li>
+        <a class="menu-item" href="https://shopclone247.com/client/favorites">
+            <i class="fa-solid fa-heart" style="color:red;"></i></i>
+            <span>Sản phẩm yêu thích</span></a>
+    </li>
+        <li>
+        <a class="menu-item "
+            href="https://shopclone247.com/category/clone-facebook"><i>
+                <img alt="CLONE FACEBOOK" src="https://shopclone247.com/assets/storage/images/iconBZ9K.png"></i>
+            <span>CLONE FACEBOOK</span></a>
+    </li>
+        <li>
+        <a class="menu-item "
+            href="https://shopclone247.com/category/clone-instagram"><i>
+                <img alt="CLONE INSTAGRAM" src="https://shopclone247.com/assets/storage/images/iconANX6.png"></i>
+            <span>CLONE INSTAGRAM</span></a>
+    </li>
+    </ul>
+<script>
+// JavaScript để ẩn/hiện menu khi click vào nút
+const toggleMenuButton = document.getElementById('toggle-menu-button');
+const topMenu = document.getElementById('top-menu-right');
+toggleMenuButton.addEventListener('click', function() {
+    topMenu.classList.toggle('hidden');
+});
+</script>
+
+
+<div class="modal fade" id="modal_notification" tabindex="-1" role="dialog"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="exampleModalLabel1"><i class="fa-solid fa-bell"></i> Thông báo                </h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><span style="font-size:14px"><img alt="yes" src="http://localhost/CMSNT.CO/SHOPCLONE7/public/ckeditor/plugins/smiley/images/thumbs_up.png" style="height:23px; width:23px" title="yes" />&nbsp;Thay đổi th&ocirc;ng b&aacute;o nổi tại -&gt; <strong>Trang Quản Trị</strong> -&gt; <strong>C&agrave;i Đặt</strong> -&gt;&nbsp;<strong>Th&ocirc;ng b&aacute;o nổi ngo&agrave;i trang chủ</strong></span></p>
+
+<p><span style="font-size:14px"><img alt="yes" src="http://localhost/CMSNT.CO/SHOPCLONE7/public/ckeditor/plugins/smiley/images/thumbs_up.png" style="height:23px; width:23px" title="yes" />&nbsp;Ẩn th&ocirc;ng b&aacute;o nổi tại -&gt; <strong>Trang Quản Trị</strong> -&gt; <strong>C&agrave;i Đặt</strong> -&gt;&nbsp;<strong>ON/OFF Th&ocirc;ng b&aacute;o nổi</strong></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger"
+                    id="dontShowAgainBtn">Không hiển thị lại trong 2 giờ</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var modal = document.getElementById('modal_notification');
+    var dontShowAgainBtn = document.getElementById('dontShowAgainBtn');
+    var modalClosedTime = localStorage.getItem('modalClosedTime');
+
+    // Nếu modalClosedTime chưa được lưu hoặc đã quá 2 giờ, hiển thị modal
+    if (!modalClosedTime || (Date.now() - parseInt(modalClosedTime) > 2 * 60 * 60 * 1000)) {
+        var bootstrapModal = new bootstrap.Modal(modal);
+        bootstrapModal.show();
+    }
+
+    // Lưu thời gian khi modal được đóng khi người dùng click vào nút "Không hiển thị lại" và ẩn modal
+    dontShowAgainBtn.addEventListener('click', function() {
+        localStorage.setItem('modalClosedTime', Date.now());
+        var bootstrapModal = bootstrap.Modal.getInstance(modal);
+        bootstrapModal.hide();
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+<footer class="footer-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xl-4">
+                <div class="footer-widget">
+                    <a class="footer-logo" href="https://shopclone247.com/">
+                        <img src="https://shopclone247.com/assets/storage/images/logo_light_GZ1.png" alt="logo"></a>
+                    <p class="footer-desc">
+                        Hệ thống bán nguyên liệu ADS tự động, uy tín, giá rẻ...</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+                <div class="footer-widget contact">
+                    <h3 class="footer-title">Liên hệ</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fa-solid fa-envelope"></i>                            <p>support_shopclone247@tuananhclone.io.vn</p>
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i>                            <p>0976656383</p>
+                        </li>
+                        <li><i class="fa-solid fa-location-dot"></i>                            <p>Hà Nội</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+                <div class="footer-widget">
+                    <h3 class="footer-title">Liên kết</h3>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="https://shopclone247.com/client/policy">Chính sách</a></li>
+                            <li><a href="https://shopclone247.com/client/faq">Câu hỏi thường gặp</a></li>
+                            <li><a href="https://shopclone247.com/client/contact">Liên hệ chúng tôi</a></li>
+                            <li><a href="https://shopclone247.com/client/document-api">Tài liệu API</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-bottom">
+                    <p class="footer-copytext">© All Copyrights Reserved by <a href="#">SHOPCLONE247.COM</a>
+                        | Software By <a href="https://www.cmsnt.co/">CMSNT.CO</a></p>
+                    <div class="footer-card">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://shopclone247.com/public/client/vendor/bootstrap/jquery-1.12.4.min.js"></script>
+<script src="https://shopclone247.com/public/client/vendor/bootstrap/popper.min.js"></script>
+<script src="https://shopclone247.com/public/client/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="https://shopclone247.com/public/client/vendor/countdown/countdown.min.js"></script>
+<script src="https://shopclone247.com/public/client/vendor/niceselect/nice-select.min.js"></script>
+<script src="https://shopclone247.com/public/client/vendor/slickslider/slick.min.js"></script>
+<script src="https://shopclone247.com/public/client/vendor/venobox/venobox.min.js"></script>
+<script src="https://shopclone247.com/public/client/js/nice-select.js"></script>
+<script src="https://shopclone247.com/public/client/js/countdown.js"></script>
+<script src="https://shopclone247.com/public/client/js/accordion.js"></script>
+<script src="https://shopclone247.com/public/client/js/venobox.js"></script>
+<script src="https://shopclone247.com/public/client/js/slick.js"></script>
+<script src="https://shopclone247.com/public/client/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+flatpickr("#example-flatpickr-range");
+</script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+
+
+ 
+</body>
+
+</html>

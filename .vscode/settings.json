@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "SF Mono, 'Courier new',monospace",
+    "editor.fontLigatures": true
+    
+  }
+  
